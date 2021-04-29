@@ -582,6 +582,7 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -848,20 +849,14 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-  width: auto;
-  height: auto;
 }
 
 .portfolio .portfolio-item .portfolio-img {
   overflow: hidden;
-  width: auto;
-  height: auto;
 }
 
 .portfolio .portfolio-item .portfolio-img img {
   transition: all 0.6s;
-  width: auto;
-  height: auto; 
 }
 
 .portfolio .portfolio-item .portfolio-info {
