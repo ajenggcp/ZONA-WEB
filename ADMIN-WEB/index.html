@@ -299,75 +299,77 @@
     <!--header end-->
 
     <!--sidebar start-->
-     <aside>
-        <div id="sidebar" class="nav-collapse">
-          <!-- sidebar menu start-->
-          <ul class="sidebar-menu">
-            <li class="active">
-              <a class="" href="index.html">
-                <i class="icon_house_alt"></i>
-                <span>Dashboard</span>
-              </a>
-            </li>
-            <li class="sub-menu">
-              <a href="javascript:;" class="">
-                <i class="icon_document_alt"></i>
-                <span>Forms</span>
-                <span class="menu-arrow arrow_carrot-right"></span>
-              </a>
-              <ul class="sub">
-                <li>
-                  <a class="" href="form_component.html">Upload Foto</a>
-                </li>
-                <li>
-                  <a class="" href="form_validation.html">Input Pengguna</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a class="" href="chart-chartjs.html">
-                <i class="icon_piechart"></i>
-                <span>Charts</span>
-              </a>
-            </li>
+    <aside>
+      <div id="sidebar" class="nav-collapse ">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu">
+          <li class="active">
+            <a class="" href="index.html">
+              <i class="icon_house_alt"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+              <i class="icon_document_alt"></i>
+              <span>Forms</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="form_component.html">Form Elements</a></li>
+              <li><a class="" href="form_validation.html">Form Validation</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="" href="chart-chartjs.html">
+              <i class="icon_piechart"></i>
+              <span>Charts</span>
 
-            <li class="sub-menu">
-              <a href="javascript:;" class="">
-                <i class="icon_table"></i>
-                <span>Pengguna</span>
-                <span class="menu-arrow arrow_carrot-right"></span>
-              </a>
-              <ul class="sub">
-                <li><a class="" href="basic_table.html">Daftar Pengguna</a></li>
-              </ul>
-            </li>
+            </a>
 
-            <li class="sub-menu">
-              <a href="javascript:;" class="">
-                <i class="icon_documents_alt"></i>
-                <span>Pages</span>
-                <span class="menu-arrow arrow_carrot-right"></span>
-              </a>
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+              <i class="icon_table"></i>
+              <span>Pengguna</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="basic_table.html">Basic Table</a></li>
+            </ul>
+          </li>
+
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+              <i class="icon_documents_alt"></i>
+              <span>Pages</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
             <ul class="sub">
               <li><a class="" href="profile.html">Profile</a></li>
               <li><a class="" href="login.html"><span>Login Page</span></a></li>
+              <li><a class="" href="contact.html"><span>Contact Page</span></a></li>
+              <li><a class="" href="blank.html">Blank Page</a></li>
               <li><a class="" href="404.html">404 Error</a></li>
             </ul>
-            </li>
+          </li>
 
-            <li class="sub-menu">
-              <a href="javascript:;" class="">
-                <span>Logout</span>
-                <span class="menu-arrow arrow_carrot-right"></span>
-              </a>
-              <ul class="sub">
-                <li><a class="" href="../index.html">Logout from admin</a></li>
-              </ul>
-            </li>
-          </ul>
-          <!-- sidebar menu end-->
-        </div>
-      </aside>
+          <li class="sub-menu">
+            <a href="javascript:;" class="">
+              <span>Logout</span>
+              <span class="menu-arrow arrow_carrot-right"></span>
+            </a>
+            <ul class="sub">
+              <li><a class="" href="../index.html">Logout from admin</a></li>
+            </ul>
+
+          </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
     <!--sidebar end-->
 
     <!--main content start-->
@@ -455,7 +457,7 @@
                 <!-- Graph -->
                 <div><span id="todayspark1" class="spark"></span></div>
                 <!-- Text -->
-                <div class="datas-text">11,500 pengunjung/hari</div>
+                <div class="datas-text">11,500 visitors/day</div>
               </li>
               <li>
                 <div><span id="todayspark2" class="spark"></span></div>
@@ -467,11 +469,11 @@
               </li>
               <li>
                 <div><span id="todayspark4" class="spark"></span></div>
-                <div class="datas-text">Rp231.000 Pendapatan/hari</div>
+                <div class="datas-text">$16,00 Revenue/Day</div>
               </li>
               <li>
                 <div><span id="todayspark5" class="spark"></span></div>
-                <div class="datas-text">12,000000 pengunjung setiap bulan</div>
+                <div class="datas-text">12,000000 visitors every Month</div>
               </li>
             </ul>
           </div>
@@ -489,7 +491,7 @@
           <div class="col-lg-9 col-md-12">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h2><i class="fa fa-flag-o red"></i><strong>Pengguna yang terdaftar</strong></h2>
+                <h2><i class="fa fa-flag-o red"></i><strong>Registered Users</strong></h2>
                 <div class="panel-actions">
                   <a href="index.html#" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
                   <a href="index.html#" class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
@@ -501,10 +503,10 @@
                   <thead>
                     <tr>
                       <th></th>
-                      <th>Negara</th>
-                      <th>Pengguna</th>
+                      <th>Country</th>
+                      <th>Users</th>
                       <th>Online</th>
-                      <th>Performa</th>
+                      <th>Performance</th>
                     </tr>
                   </thead>
                   <tbody>
