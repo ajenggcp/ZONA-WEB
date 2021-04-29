@@ -849,6 +849,8 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  width: auto;
+  height: auto;
 }
 
 .portfolio .portfolio-item .portfolio-img {
